@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .accordion {
+    border: 1px solid #ddd;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .accordion-item-header {
+    background-color: #eee;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .accordion-item-body {
+    padding: 10px;
+    display: none;
+  }
+  
